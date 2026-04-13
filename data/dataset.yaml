@@ -1,0 +1,24 @@
+# YOLOv8 Dataset Configuration
+# 데이터셋 경로 및 클래스 정의
+
+# 데이터 루트 경로 (이 파일 기준 상대경로 또는 절대경로)
+path: ./data
+
+# 이미지 디렉토리 (path 기준 상대경로)
+train: images/train
+val: images/val
+test: images/test  # optional
+
+# 클래스 수
+nc: 1
+
+# 클래스 이름 목록 (원하는 클래스명으로 수정하세요)
+names:
+  0: object
+
+# 예시: 여러 클래스 사용 시
+# nc: 3
+# names:
+#   0: cat
+#   1: dog
+#   2: person

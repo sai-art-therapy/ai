@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# 가상환경
+venv/
+.venv/
+env/
+.env/
+
+# 학습 결과 (대용량 파일 제외)
+runs/
+*.pt
+*.onnx
+*.engine
+*.tflite
+*.pb
+
+# 데이터셋 이미지/라벨 (필요 시 주석 해제)
+# data/images/
+# data/labels/
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 로그
+*.log
+wandb/
+
+# 임시 파일
+*.tmp
+*.bak
+*.swp

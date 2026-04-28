@@ -1,21 +1,119 @@
-# Python
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[cod]
-*.pyd
-*.pyo
-*.egg
-*.egg-info/
-dist/
+*.py[codz]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
 build/
+develop-eggs/
+dist/
+downloads/
+eggs/
 .eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# 가상환경
-venv/
-.venv/
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django / Flask
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+instance/
+.webassets-cache
+
+# Environments
+.env
+.envrc
+.venv
 env/
-.env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
-# 학습 결과 (대용량 파일 제외)
+# IDE
+.vscode/
+.idea/
+.spyderproject
+.spyproject
+.ropeproject
+
+# mypy / pyre / pytype
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints
+ipython_config.py
+profile_default/
+
+# pyenv / pipenv / poetry / pdm / pixi
+.pdm-python
+.pdm-build/
+.pixi
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Misc
+*.sage.py
+cython_debug/
+.abstra/
+.cursorignore
+.cursorindexingignore
+.pypirc
+/site
+marimo/_static/
+marimo/_lsp/
+__marimo__/
+
+# ── YOLOv8 / 모델 학습 결과 ──────────────────────────
 runs/
 *.pt
 *.onnx
@@ -23,26 +121,17 @@ runs/
 *.tflite
 *.pb
 
-# 데이터셋 이미지/라벨 (필요 시 주석 해제)
+# 데이터셋 이미지/라벨 (대용량 — 필요 시 주석 해제)
 # data/images/
 # data/labels/
 
-# IDE
-.vscode/
-.idea/
-*.sublime-project
-*.sublime-workspace
-
-# OS
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# 로그
-*.log
+# wandb 로그
 wandb/
 
 # 임시 파일
 *.tmp
 *.bak
 *.swp
+Thumbs.db
+.DS_Store
+desktop.ini

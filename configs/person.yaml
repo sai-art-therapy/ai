@@ -1,0 +1,30 @@
+# HTP Person 데이터셋 설정
+# path: 데이터셋 루트 경로를 로컬 환경에 맞게 수정하세요.
+path: datasets/person
+
+train: images/train
+val: images/val
+
+nc: 20
+
+names:
+  0: male_person
+  1: female_person
+  2: head
+  3: face
+  4: eye
+  5: nose
+  6: mouth
+  7: ear
+  8: hair
+  9: neck
+  10: upper_body
+  11: arm
+  12: hand
+  13: leg
+  14: foot
+  15: button
+  16: pocket
+  17: sneakers
+  18: female_shoes
+  19: male_shoes

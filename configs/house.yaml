@@ -1,0 +1,24 @@
+# HTP House 데이터셋 설정
+# path: 데이터셋 루트 경로를 로컬 환경에 맞게 수정하세요.
+path: datasets/house
+
+train: images/train
+val: images/val
+
+nc: 14
+
+names:
+  0: house
+  1: roof
+  2: wall
+  3: door
+  4: window
+  5: chimney
+  6: smoke
+  7: fence
+  8: road
+  9: pond
+  10: mountain
+  11: tree
+  12: grass
+  13: sun

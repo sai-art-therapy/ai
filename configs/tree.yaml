@@ -1,0 +1,24 @@
+# HTP Tree 데이터셋 설정
+# path: 데이터셋 루트 경로를 로컬 환경에 맞게 수정하세요.
+path: datasets/tree
+
+train: images/train
+val: images/val
+
+nc: 14
+
+names:
+  0: tree
+  1: trunk
+  2: crown
+  3: branch
+  4: root
+  5: leaf
+  6: flower
+  7: fruit
+  8: swing
+  9: bird
+  10: squirrel
+  11: cloud
+  12: moon
+  13: star

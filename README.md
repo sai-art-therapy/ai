@@ -65,24 +65,32 @@ House, Tree, Person을 하나의 통합 모델로 학습하는 대신 각 영역
 
 ```text
 ai/
+├── colab/
+│   └── htp_dataset_preprocessing.ipynb
 ├── configs/                  # 데이터셋 설정 파일 (YOLO yaml)
 │   ├── house.yaml
 │   ├── tree.yaml
 │   └── person.yaml
 ├── models/                   # YOLOv8m 학습 결과
 │   ├── house/
-│   │   ├── weights/best.pt
+│   │   ├── best.pt
 │   │   ├── results.csv
 │   │   ├── results.png
-│   │   ├── confusion_matrix.png
-│   │   ├── confusion_matrix_normalized.png
-│   │   └── Box*_curve.png
+│   │   └── ...
 │   ├── tree/
-│   │   └── (동일 구성)
+│   │   ├── best.pt
+│   │   ├── results.csv
+│   │   ├── results.png
+│   │   └── ...
 │   └── person/
-│       └── (동일 구성)
+│       ├── best.pt
+│       ├── results.csv
+│       ├── results.png
+│       └── ...
 └── README.md
 ```
+
+`colab/htp_dataset_preprocessing.ipynb` contains the preprocessing workflow for converting AI Hub HTP JSON annotations into YOLO format and generating House, Tree, and Person datasets.
 
 ---
 

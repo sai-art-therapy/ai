@@ -117,6 +117,7 @@ __marimo__/
 runs/
 *.pt
 !models/**/*.pt
+models/**/args.yaml
 *.onnx
 *.engine
 *.tflite

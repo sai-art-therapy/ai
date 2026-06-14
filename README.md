@@ -104,4 +104,3 @@ ai/
 * Tree Model
 * Person Model
 
-추론 예시 이미지 및 성능 비교 결과는 추후 업데이트 예정이다.
